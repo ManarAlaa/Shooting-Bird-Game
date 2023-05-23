@@ -1,0 +1,46 @@
+
+<html>
+    <head>
+        
+        <title>Bird Game</title>
+       
+  <link rel="stylesheet" href="css/index.css">
+        <style>         
+        </style>
+    </head>
+    
+    <body>
+        <img src="images/LOGO.png" id="logo">
+        <form method="get" action="game.html">
+        <div id="firstDiv">
+            <!-- <p>Enter Your Name</p>   -->
+            <input type="text" name="name" placeholder="Enter Your Name"><br>
+            <input class="inSubmit" type="submit" value="Go">
+        </div>
+        <div id="secondDiv">
+            <!-- <p>  Shooting Bird Game Points</p>   -->
+            <table>
+          <tr>
+               <td><img class="gif" src="images/white.gif" ></td> 
+                <td class="points"><p class="points" id="white" > +5 Points  </p></td>
+            </tr>
+         
+            <tr>
+                <td><img class="gif" src="images/black.gif" ></td> 
+                 <td class="points" ><p class="points" id="green"> +10 Points  </p></td>
+             </tr>
+             <tr>
+                <td><img class="gif" src="images/cyan.gif" ></td> 
+                 <td class="points"><p class="points" id="red"> -10 Points  </p></td>
+             </tr>
+         </table>
+        <!-- // <img src="images/bomb1.png" width="80px" height="100px"> -->
+         
+        </div>
+       
+    </form>
+
+    <script  src="index.js"></script>
+   
+    </body>
+</html>

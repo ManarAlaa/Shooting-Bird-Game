@@ -1,0 +1,122 @@
+body{
+    cursor: url('../images/cursor3.png') 10 10,auto;
+
+}
+
+body{
+    background-image: url('../images/index1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    
+}
+div
+{
+    position:center;
+    border: 1px solid;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 460px ;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(230, 230, 207, 0.514);
+    border-radius: 10px;
+    font-size: 20px;
+    border:1px groove rgb(192, 174, 174);
+}
+input{
+    padding: 8px;
+    width: 300px;
+    border-radius: 4px;
+    border: 0px;
+    height: 38px;
+}
+p{
+    font-weight: bold;
+}
+.inSubmit{
+    background-color: rgb(46, 46, 46);
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 12px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.birdPoints{
+    margin:auto;
+    width: 400px;
+    height: 80px;
+    background-color:rgba(245, 245, 220, 0);
+
+}
+input[type="submit"]:hover {
+    background-color: rgb(53, 158, 76);
+}
+
+.gif{
+    width: 70px;
+    margin-right: 70px;
+    margin-left: 55px;
+   
+    display: inline-block;
+    vertical-align: middle;
+}
+.points{
+    
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+#firstDiv{
+    height: 100px;
+    margin-top: 20px;
+    
+
+}
+#secondDiv{
+    height: 200px;
+
+}
+#red{
+    color:white;
+    background-color: rgba(180, 24, 24, 0.959);
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+#white{
+    color:white;
+    background-color: rgb(32, 134, 168);
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+#green{
+    color:white;
+    background-color: rgb(18, 138, 18);
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+body{
+cursor: url('images/cursor3.png') 10 10,auto;
+
+}
+
+#logo{
+    width: 30%;
+    height: 30%;
+    margin-left: 34%;
+}
